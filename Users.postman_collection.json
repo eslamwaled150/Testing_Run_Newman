@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "cddb6f9a-5671-4bba-bcb8-ec6d432064fe",
+		"name": "Users",
+		"description": "All the APIs that controls the Users in Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37128076",
+		"_collection_link": "https://www.postman.com/orbital-module-engineer-18164762/workspace/my-workspace-api-testing-documentation/collection/37128076-cddb6f9a-5671-4bba-bcb8-ec6d432064fe?action=share&source=collection_link&creator=37128076"
+	},
+	"item": [
+		{
+			"name": "Signup User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"oliwefewvier@mail.com\",\r\n  \"password\": \"fwfbestPassw0rd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/signup",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "signin user",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"email\": \"oliwefewvier@mail.com\",\r\n      \"password\": \"$2a$10$4A4mAo20uJnqegwR3Aufb.dH.fztM0cNufHkqiBbH01QNj0WuXp..\",\r\n      \"id\": \"zKZ3JmF\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/signin",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"description": "Creates a new user in the system"
+			},
+			"response": []
+		},
+		{
+			"name": "User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "Retrieves a list of all registered users"
+			},
+			"response": []
+		},
+		{
+			"name": "User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"description": "Updates user information based on user ID"
+			},
+			"response": []
+		},
+		{
+			"name": "User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				},
+				"description": "Deletes a user by their ID"
+			},
+			"response": []
+		}
+	]
+}
