@@ -5,7 +5,7 @@
 ### PUT /course – Update course details
 ### DELETE /course – Remove a course
 ### GET /courses -Retrieve all courses
-######
+# --------------------------------------
 ## Users API
 ### POST /user – Register a new user
 ### GET /user – Retrieve user details
