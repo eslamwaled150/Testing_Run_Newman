@@ -20,9 +20,9 @@
 ### "git clone https://github.com/eslamwaled150/Testing_Run_Newman.git"
 ### "cd Testing_Run_Newman"
 ### 2.Install Dependencies
-#### npm install
+#### "npm install"
 ### 3.Start JSON Server with Authentication
-#### json-server-auth db.json --watch
+#### "json-server-auth db.json --watch"
 ### 4.Start the Development Server
-#### npm run dev
+#### "npm run dev"
 
