@@ -17,8 +17,8 @@
 ## Setup and Run Guide
 
 ### 1. Clone the Repository
-#### git clone https://github.com/eslamwaled150/Testing_Run_Newman.git
-#### cd Testing_Run_Newman
+git clone https://github.com/eslamwaled150/Testing_Run_Newman.git
+cd Testing_Run_Newman
 
 ### 2. Install Dependencies
 #### npm install
