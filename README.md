@@ -25,4 +25,6 @@
 #### json-server-auth db.json --watch
 ### 4.Start the Development Server
 #### npm run dev
+### 5.Run the Newman Report
+#### "./NEWMAN_FOLDER/name of collection.json" -r htmlextra --reporter-htmlextra-export "./NEWMAN_FOLDER/Newman_Reporter.html"
 
