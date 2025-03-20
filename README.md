@@ -14,17 +14,32 @@
 #### DELETE /user – Remove a user
 
 
-## Setup and Run Guide
+# Setup and Run Guide
 
-### 1.Clone the Repository
-### git clone https://github.com/eslamwaled150/Testing_Run_Newman.git
-### cd Testing_Run_Newman
-### 2.Install Dependencies
-#### npm install
-### 3.Start JSON Server with Authentication
-#### json-server-auth db.json --watch
-### 4.Start the Development Server
-#### npm run dev
-### 5.Run the Newman Report
-#### "./NEWMAN_FOLDER/name of collection.json" -r htmlextra --reporter-htmlextra-export "./NEWMAN_FOLDER/Newman_Reporter.html"
+### Clone the Repository  
+```sh
+git clone https://github.com/eslamwaled150/Testing_Run_Newman.git  
+cd Testing_Run_Newman  
+```
+
+### Install Dependencies  
+```sh
+npm install  
+```
+
+### Start JSON Server with Authentication  
+```sh
+json-server-auth db.json --watch  
+```
+
+### Start the Development Server  
+```sh
+npm run dev  
+```
+
+### Run Newman with Extra HTML Report  
+```sh
+newman run "./NEWMAN_FOLDER/Contract Testing.postman_collection_new.json" -r htmlextra --reporter-htmlextra-export "./NEWMAN_FOLDER/Newman_Reporter/Newman_Reporter.html"  
+```
+
 
