@@ -37,6 +37,11 @@ json-server-auth db.json --watch
 npm run dev  
 ```
 
+### Running the Server
+```sh
+node server.js
+```
+
 ### Run Newman with Extra HTML Report  
 ```sh
 newman run "./NEWMAN_FOLDER/collection name.json" -r htmlextra --reporter-htmlextra-export "./NEWMAN_FOLDER/Newman_Reporter/Newman_Reporter.html"  
