@@ -1,0 +1,76 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Postman Course",
+      "description": "Full Postman course in Arabic from scratch."
+    },
+    {
+      "id": "2",
+      "title": "Appium Course",
+      "description": "Complete Appium course in Arabic from scratch."
+    },
+    {
+      "id": "3",
+      "title": "Manual Testing Bootcamp",
+      "description": "Comprehensive Manual Testing Bootcamp in Arabic from scratch."
+    },
+    {
+      "id": "4",
+      "title": "Selenium Course",
+      "description": "Complete Selenium Java course in Arabic from scratch."
+    },
+    {
+      "title": "Java Course",
+      "description": "Complete Java course in Arabic from scratch.",
+      "id": "6"
+    },
+    {
+      "id": "7",
+      "title": "Rest Assured Course",
+      "description": "Comprehensive Rest Assured API testing course in Arabic from scratch."
+    },
+    {
+      "id": "8",
+      "title": "SHAFT Course",
+      "description": "Complete SHAFT Engine course for test automation in Arabic from scratch."
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "eslam.rofa@gmail.com",
+      "password": "$2a$10$RqNbmOigNBDgbsUIIHjo0O5k9tWgsysG0.nZAnijEml92AyrPkJny",
+      "first_name": "Eslam",
+      "last_name": "Rofa",
+      "job_title": "QC Tester"
+    },
+    {
+      "id": "2",
+      "email": "youssef_nasser@gmail.com",
+      "password": "$2a$10$viNXq9ejAtO2sqZ3bq.QQuA12GdQQ0f4K/.JyrnQxxnIWi4QqiEga",
+      "first_name": "Youssef",
+      "last_name": "Nasser",
+      "job_title": "Software Validation"
+    },
+    {
+      "id": "3",
+      "email": "mosa_ali@gmail.com",
+      "password": "$2a$10$PumlTAigczzCbFBnNyuK8uva9Q.LbL1MnSKr1WUnj5Ttv3mPvvmy2",
+      "first_name": "Mosa",
+      "last_name": "Ali",
+      "job_title": "Software Engineer"
+    },
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$5w/5I0Dvh.AktIpN2/OkP.cQn34zZGxfL.jCqYk8fi1MooXa6IExq",
+      "kind": "male",
+      "id": "JHZ-M6Y"
+    },
+    {
+      "email": "oliwefewvier@mail.com",
+      "password": "$2a$10$7gQXpFpA1K9PDx9a70siD.f13hIeSZeT3uo5pTj0SEckdkhVNSg/2",
+      "id": "VT5yDZg"
+    }
+  ]
+}
